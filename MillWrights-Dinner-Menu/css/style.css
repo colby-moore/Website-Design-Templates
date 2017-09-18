@@ -1,0 +1,253 @@
+.container-fluid{
+
+}
+
+	.row{
+
+	}
+
+
+		.menu_about_container{
+			background-color: #f9f8f2;
+			background-image: url("http://www.transparenttextures.com/patterns/paper.png");
+			/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+			height: 100%;
+		}
+
+			.menu_about{
+				padding: 25px 0 40px 0;
+				text-align: center;
+				margin: auto;
+				height: 100%;
+			}
+
+			.menu_about h3{
+				padding-bottom: 20px;
+				font-family: 'Handlee', cursive;				text-align: center;
+				border-bottom: solid 1px #111;
+				color: #333;
+			}
+
+			.menu_about p{
+				font-family: 'Handlee', cursive;				padding-top: 25px;
+				color: #333;
+			}
+
+		.menu_background{
+			padding: 100px 0 100px 0;
+			background-repeat: repeat;
+			background-size: 100%;
+			height: 100%;
+			background-image: url(http://hires.photospublic.com/PP03122313-Wood-texture-bacground-horizontal-nerves.jpg);
+		}
+
+			.menu_header_container{
+				padding-top: 30px;
+				background-color: #f9f8f2;
+				background-image: url("http://www.transparenttextures.com/patterns/paper.png");
+				/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+				height: 100%;
+			}
+
+				.menu_header_container h3{
+					text-align: center;
+					font-family: 'Handlee', cursive;
+				}
+				.menu_header_container h4{
+					padding-top: 20px;
+					text-align: center;
+					font-family: 'Handlee', cursive;
+				}
+
+				.menu_header_container h6{
+					padding-bottom: 12.5px;
+					text-align: center;
+					font-family: 'Handlee', cursive;
+				}
+
+				.menu_options{
+					border-top: 1px solid #333;
+					background-image: url("http://www.transparenttextures.com/patterns/paper.png");
+					/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+					margin-bottom: 50px;
+					height: 100%;
+					background-color: #f9f8f2;
+					text-align: center;
+					font-family: 'Handlee', cursive;
+				}
+
+					.menu_end{
+
+					}
+
+
+
+		.hour_container{
+			margin-bottom: -100px;
+			background-color: #f9f8f2;
+			background-image: url("http://www.transparenttextures.com/patterns/paper.png");
+			/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+			height: 100%;
+		}
+			.ending_notes{
+				margin: 40px auto;
+				background-image: url("http://www.transparenttextures.com/patterns/paper.png");
+			/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+				height: 100%;
+				text-align: center;
+				background-color: #f9f8f2 ;
+				font-family: 'Handlee', cursive;
+				letter-spacing: 2px;
+				border-top: 1px solid #333;
+			}
+
+				.test1{
+					letter-spacing: 1.5px;
+					text-align: center;
+					font-family: 'Handlee', cursive;				padding-top: 25px;
+					color: #333;
+				}
+
+				.test2{
+					text-align: center;
+					font-family: 'Handlee', cursive;				padding-top: 25px;
+					color: #333;
+				}
+
+/* Fixes div rows' movement downwards upon resize */
+@media (min-width: 993px){
+	.circle h3{
+		padding-top: 90px;
+		font-size: 54px;
+	}
+}
+@media (min-width: 687px) and (max-width: 992px) {
+	.circle h3{
+		padding-top: 90px;
+		font-size: 54px;
+	}
+
+	.navbar{
+		height: 70px;
+	}
+	/*.row{
+		margin-top: -117px;
+	}
+
+	.banner_container{
+		height: 300px;
+		margin-top: -100px;
+	}
+
+	.banner a{
+		padding-top: 117px
+	}
+
+	.banner h3{
+		margin-top: -8px;
+	}
+
+	.navbar{
+		height: 70px;
+		margin-top: -20px;
+	}*/
+}
+@media (max-width: 686px){
+
+	.circle{
+		height: 180px;
+		width: 360px;
+		  border-radius: 360px 360px 0 0;
+		  -moz-border-radius: 360px 360px 0 0;
+		  -webkit-border-radius: 360px 360px 0 0;
+	}
+
+	.circle h3{
+		font-size: 48px;
+		line-height: 48px;
+	}
+
+	.circle2{
+		height: 180px;
+		width: 360px;
+		  border-radius: 0 0 360px 360px;
+		  -moz-border-radius: 0 0 360px 360px;
+		  -webkit-border-radius: 0 0 360px 360px;
+	}
+
+	.navbar{
+		height: 90px;
+	}
+	/*.row{
+		margin-top: -117px;
+	}
+
+	.banner_container{
+		height: 121px;
+	}
+
+		.banner a{
+			font-size: 2.5em;
+			margin-bottom: -25px;
+			padding-top: 20px;
+		}
+
+		.banner h3{
+			font-size: 1.1em;
+
+		}
+
+	.navbar{
+		height: 70px;
+	}*/
+
+}
+
+.hi{
+	background-size: cover !important;
+	z-index: 1;
+	height: 100vh;
+	background-color: #f9f8f2;
+			/*background-image: url("http://www.transparenttextures.com/patterns/paper.png");*/
+	background-image: url("https://static.pexels.com/photos/66640/pexels-photo-66640.jpeg");
+			/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+	.hi h1{
+		font-family: 'Raleway';
+		text-align: center;
+		margin-top: 5%;
+		letter-spacing: 7px;
+		font-size: 3.5em;
+	}
+
+	.arrowWrap{
+		display: flex;
+	  align-items: center;
+	  justify-content: center;
+		margin: -2% auto;
+		text-align: center;
+	}
+
+	.arrowWrap a{
+		text-align: center;
+	}
+
+		.arrow {
+			margin-bottom: -40px;
+			float: none;
+			text-align: center;
+		  box-sizing: border-box;
+		  height: 5vw;
+		  width: 5vw;
+		  border-style: solid;
+		  border-color: #101010;
+		  border-width: 0px 1px 1px 0px;
+		  transform: rotate(45deg);
+		  transition: border-width 150ms ease-in-out;
+		}
+
+		.arrow:hover {
+		  border-bottom-width: 4px;
+		  border-right-width: 4px;
+		}
